@@ -53,6 +53,52 @@ h1, p{
     margin-right: 20px;
 }
 
+.img-cards,.text-cards{
+    float: left;
+}
+
+
+.text-cards{
+    background-color: black;
+    width: 200px;
+    height: 100px;
+    color: white;
+    padding: 10px;
+}
+
+#email{
+    color: #5EC7E4;
+}
+h3:first-child{
+    padding: 5px 0px 5px;
+}
+
+.img-cards{
+    background-color: #E5306F;
+    background-size: cover;
+    background-position: center;
+    height: 100px;
+    width: 100px;
+}
+
+.marco{
+    background-image: url(../img/male1.png);
+}
+.laura{
+    background-image: url(../img/female1.png);
+}
+.giorgio{
+    background-image: url(../img/male2.png);
+}
+.marta{
+    background-image: url(../img/female2.png);
+}
+.roberto{
+    background-image: url(../img/male3.png);
+}
+.daniela{
+    background-image: url(../img/female3.png);
+}
 
 
 
@@ -61,18 +107,3 @@ h1, p{
     background-color: lightcyan;
 }
 
-.img-cards{
-    background-color: violet;
-    height: 100px;
-    width: 100px;
-}
-
-.text-cards{
-    background-color: blueviolet;
-    width: 200px;
-    height: 100px;
-}
-
-.img-cards,.text-cards{
-    float: left;
-}
