@@ -19,17 +19,21 @@
     max-width: 1000px;
 }
 
+.clearfix::after{
+    content: "";
+    display: table;
+    clear: both;
+}
+
 /* Main */
 
 h1{
     color: #E5306F;
     font-size: 40px;
-    /* padding-top: 25px; */
 }
 
 p{
     font-size: 18px;
-    /* padding-top: 30px; */
 }
 
 h1, p{
@@ -37,6 +41,17 @@ h1, p{
     padding: 25px 0px 30px;
 }
 
+.cards-container > *{
+    float: left;
+    width: cal((100% / 3));
+    margin: 0;
+    padding: 10px;
+}
+
+.even:nth-of-type(even){
+    margin-left: 20px;
+    margin-right: 20px;
+}
 
 
 
@@ -44,4 +59,20 @@ h1, p{
 /* Debug */
 .debug{
     background-color: lightcyan;
+}
+
+.img-cards{
+    background-color: violet;
+    height: 100px;
+    width: 100px;
+}
+
+.text-cards{
+    background-color: blueviolet;
+    width: 200px;
+    height: 100px;
+}
+
+.img-cards,.text-cards{
+    float: left;
 }
